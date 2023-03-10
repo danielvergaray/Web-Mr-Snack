@@ -1,0 +1,116 @@
+/* VERSION DESKTOP */
+
+@media screen and (min-width:351px) {
+  
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+
+
+    .mobile__cabecera-container, .mobile__favoritos, .mobile__boxes,.mobile__boxes-btn, .combos__mobile-container, .mobile__nuevos, .mobile__footer-container{
+        display: none;
+    }
+
+    .desktop__cabecera{
+        display: flex;
+        background-color: #d9d9d9;
+        height: 2em;
+        padding: 1em;   
+        align-items: center;
+        justify-content: space-between;
+        border: solid black 1px;
+    }
+    .desktop__cabecera a{
+        text-decoration: none;
+        color: black;   
+    }
+    .hero__container{
+        display: block;
+        background-color: black;
+        text-align: center;
+        padding: 1em;
+    }
+    .desktop__favoritos{
+        display: block;
+        background-color: #d9d9d9;
+        color: black;
+        text-align: center;
+        padding: 1em;
+    }
+    .desktop__favoritos-imagenes{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .desktop__boxes{
+        background-color: #f5f5f5;
+        display: block;
+        text-align: center;
+        color: black;
+        padding: 1em 7em;
+    }
+    .desktop__boxes-imagenes{
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+    }
+    .desktop__boxes-imagenes img{
+        width: 12.5em;
+        height: 12.5em;
+        border-radius: 6.25em;
+    }
+    .varios__desktop-container{
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        align-items: center;
+        padding: 1em 10em;
+    }
+    .varios__desktop-combos, .varios__desktop-nuevos{
+        width: 12.5em;
+        height: 12.5em;
+    }
+    
+    .imagenDescuento{
+        height: 6em;
+        width: 12.5em;
+    }
+    .imagenPequena-container{
+        
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .imagenPequena{
+        width: 6em;
+        height: 6em;
+    }
+
+    .desktop__footer-container{
+        background-color: #d9d9d9;
+        text-align: center;
+        
+    }
+    .desktop__footer-redes{
+        display: flex;
+        justify-content: space-between;
+        padding: 1em 20em;
+        font-size: 1.25em;
+    }
+    .desktop__footer-contacto{
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5em 15em;
+      
+    }
+    .desktop__footer-contacto a{
+        color: white;
+        text-decoration: none;
+    }
+    
+
+}
