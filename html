@@ -5,22 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mr. snack</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,400;0,600;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/15199fa674.js" crossorigin="anonymous"></script>
+
+    <!--------------------------------------- FALTA AGREGAR EL FAVICON ------------------------------------------------->
+
 </head>
 
 <body>
     <header>
-    <!----------------- cabecera mobile ------------------------>
-        <div mobile__cabecera>
-            <div class="mobile__cabecera-container">
-                <img src="#" alt="lodo Mr. snack">
-                <a href=""></a>
-                <a href=""></a>
-            </div>
+        <!----------------- cabecera mobile ------------------------>
+        <!-- <div mobile__cabecera> -->
+        <div class="mobile__cabecera-container">
+            <img src="#" alt="logo Mr. snack">
+            <a href=""></a>
+            <a href=""></a>
         </div>
-    <!----------------- cabecera mobile ------------------------------>
+        <!-- </div> -->
+        <!----------------- cabecera mobile ------------------------------>
 
-    <!----------------- cabecera desktop ------------------------>
+        <!----------------- cabecera desktop ------------------------>
         <div class="desktop__cabecera">
             <img src="#" alt="logo">
             <a href="">Dulces</a>
@@ -34,56 +43,94 @@
             </form>
             <a href="">Carrito</a>
         </div>
-    <!--------------- cabecera desktop --------------------->
+        <!--------------- cabecera desktop --------------------->
 
     </header>
-<!-------------------- main mobile --------------------->
-    <main class="mobile__favoritos">
-        <h2>Los Favoritos</h2>
-        <img src="" alt="">
-        <button>Conocer catalogo</button>
-<!-------------------- main mobile --------------------->
-
-<!-------------------- main desktop --------------------->
-<h2>Los Favoritos</h2>
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
-        <button>Conocer catalogo</button>
-<!-------------------- main desktop --------------------->
+    <!-------------------- main mobile --------------------->
+    <main>
+        <div class="hero__container"> <!--  Para desktop y mobile -->
+            <a href="">Flecha Izquierda</a>
+            <img src="#" alt="hero">
+            <a href="">Flecha derecha</a>
+            <div class="hero__circulos">
+                <a href="">Circulo 1</a>
+                <a href="">Circulo 2</a>
+                <a href="">Circulo 3</a>
+            </div>
+        </div>
     </main>
 
 
-    <section class="boxes">
+    <section>
+        <div class="mobile__favoritos">
+            <h2>Los Favoritos</h2>
+            <img src="" alt="">
+            <button>Conocer catalogo</button>
+        </div>
+        <!-------------------- main mobile --------------------->
 
-        <div class="boxes__box-mobile">
+        <!-------------------- main desktop --------------------->
+        <div class="desktop__favoritos">
+            <h2>Los Favoritos</h2>
+            <div class="desktop__favoritos-imagenes">
+                <a href="">1<img src="#" alt=""></a>
+                <a href="">2<img src="#" alt=""></a>
+                <a href="">3<img src="#" alt=""></a>
+                <a href="">4<img src="#" alt=""></a>
+                <a href="">5<img src="#" alt=""></a>
+            </div>
+            <div class="favoritos__circulos">
+                <a href="">Circulo 1</a>
+                <a href="">Circulo 2</a>
+                <a href="">Circulo 3</a>
+            </div>
+            <button>Conocer catalogo</button>
+        </div>
+        <!-------------------- main desktop --------------------->
+    </section>
+
+    <!-------------------- Boxes mobile --------------------->
+    <section>
+
+        <div class="mobile__boxes">
             <img src="#" alt="imagen box">
             <img src="#" alt="imagen box">
             <img src="#" alt="imagen box">
         </div>
-        <div>
+        <div class="mobile__boxes-btn">
             <button>Conoce nuestros boxes</button>
         </div>
+        <!-------------------- Boxes mobile --------------------->
 
-        <div class="boxes__box-desktop">
+        <!-------------------- Boxes desktop --------------------->
+        <div class="desktop__boxes">
             <h2>Boxes</h2>
-            <div>
-                <a href=""><img src="" alt=""></a>
-                <a href=""><img src="" alt=""></a>
-                <a href=""><img src="" alt=""></a>
+            <div class="desktop__boxes-imagenes">
+                <div class="desktop__boxes-imagenNombre">
+                    <a href=""><img src="./imagenes/chocobox.jpeg" alt=""></a>
+                    <p>Chocobox</p>
+                </div>
+                <div>
+                    <a href=""><img src="./imagenes/delibox.jpeg" alt=""></a>
+                    <p>Delibox</p>
+                </div>
+                <div>
+                    <a href=""><img src="./imagenes/happybox.jpeg" alt=""></a>
+                    <p>Happybox</p>
+                </div>
             </div>
         </div>
+        <!-------------------- Boxes desktop --------------------->
 
-        
     </section>
-    <section class="mobile__combos">
+
+    <section class="combos__mobile-container">
+        <!-------------------- combos mobile --------------------->
         <h2>Nuestros combos</h2>
-        <div class="mobile__combo-combo">
+        <div class="combos__mobile-1combo">
             <img src="#" alt="">
         </div>
-        <div class="mobile__combo-combo">
+        <div class="mobile__combo-2combo">
             <img src="#" alt="">
             <img src="" alt="">
         </div>
@@ -91,22 +138,64 @@
             <button>Ver todos</button>
         </div>
     </section>
+    <!-------------------- combos mobile --------------------->
+
+    <!-------------------- otros desktop --------------------->
+    <section class="varios__desktop-container">
+        <img class="varios__desktop-combos" src="./imagenes/combos.jpeg" alt="imagen">
+        <div >
+            <img class="imagenDescuento" src="./imagenes/descuento.jpg" alt="imagen">
+            <div class="imagenPequena-container">
+                <img class="imagenPequena" src="./imagenes/comoPedir.jpeg" alt="imagen">
+                <img class="imagenPequena" src="./imagenes/delivery.png" alt="imagen">
+            </div>
+        </div>
+        <img class="varios__desktop-nuevos" src="./imagenes/productosNuevo.jpg" alt="imagen">
+    </section>
+    <!-------------------- otros desktop --------------------->
+
+    <!-------------------- Nuevos mobile --------------------->
     <section class="mobile__nuevos">
         <p>Conoce lo nuevo de MR. Snack</p>
         <button>Nuevos Productos</button>
     </section>
+    <!-------------------- Nuevos mobile --------------------->
+
     <footer>
-        <div class="contacto">
-            <a href="">Contactanos</a>
-            <a href="">Politica</a>
-            <a href="">Ayuda</a>
-            <a href="">Reportar un problema</a>
+        <!--------------------Footer mobile --------------------->
+        <div class="mobile__footer-container">
+            <div class="mobile__footer-contacto">
+                <a href="">Contactanos</a>
+                <a href="">Politica</a>
+                <a href="">Ayuda</a>
+                <a href="">Reportar un problema</a>
+            </div>
+            <div class="mobile__footer-redes">
+                <a href="">Instagram</a>
+                <a href="">Facebook</a>
+                <a href="">Tik Tok</a>
+            </div>
         </div>
-        <div class="redes">
-            <a href="">Instagram</a>
-            <a href="">Facebook</a>
-            <a href="">Tik Tok</a>
+        <!--------------------Footer mobile --------------------->
+
+        <!--------------------Footer desktop --------------------->
+        <div class="desktop__footer-container">
+            <h2>Conoce nuestras redes</h2>
+            <div class="desktop__footer-redes">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <div class="desktop__footer-contacto">
+                <a href="">Contactanos</a>
+                <a href="">Politica</a>
+                <a href="">Ayuda</a>
+                <a href="">Reporta un problema</a>
+            </div>
         </div>
+        <!--------------------Footer desktop --------------------->
+
+
     </footer>
 </body>
 
